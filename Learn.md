@@ -56,8 +56,11 @@ Write these lines in the editor:
 
 ## Address Type
 
+- Every account and smart contract on the Ethereum blockchain has an address and can send and receive Ether to and from this address.
 - Solidity has a built-in type called `address` which is used to represent an Ethereum address.
-  Here is an example:
+- An address holds a 20 byte value which is size of an Ethereum address.
+
+Here is an example:
 
 Code this in the editor:
 

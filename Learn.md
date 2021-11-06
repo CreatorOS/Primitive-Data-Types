@@ -10,7 +10,8 @@ Here we introduce you to some primitive data types available in Solidity.
 ## Boolean
 
 In Solidity, booleans are represented by the `bool` type. It can have the values `true` or `false`.
-Let's see how to use it:
+Let's see how to use it.
+Create a variable boo and assign it the value `true`.
 
 ```
     bool public boo = true;
@@ -28,6 +29,8 @@ Let's see how to use it:
   - uint256 ranges from 0 to 2 \*\* 256 - 1
 - uint is an alias for uint256
 
+Write these lines in the editor:
+
 ```
     uint8 public u8 = 1;
     uint public u256 = 456;
@@ -43,6 +46,8 @@ Let's see how to use it:
   - int128 ranges from -2 ** 127 to 2 ** 127 - 1
 - int is an alias for int256
 
+Write these lines in the editor:
+
 ```
     int8 public i8 = -1;
     int public i256 = 456;
@@ -53,6 +58,8 @@ Let's see how to use it:
 
 - Solidity has a built-in type called `address` which is used to represent an Ethereum address.
   Here is an example:
+
+Code this in the editor:
 
 ```
     address public addr = 0xCA35b7d915458EF540aDe6068dFe2F44E8fa733c;
